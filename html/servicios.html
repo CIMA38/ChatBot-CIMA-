@@ -1,0 +1,233 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="icon" type="image/x-icon" href="../img/CIMA.png">
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+    <!-- Encabezado del sitio web con menú de navegación -->
+    <header class="header__concepto">
+        <nav>
+            <h1>
+                <img class="logo" src="../img/CIMA_logo.png" alt="CIMA Logo">
+            </h1>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html" class="btn btn-cta">Servicios</a></li>
+                <li><a href="contacto.html">Atención al cliente</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Sección de descripción de los servicios -->
+    <section class="descripcion-servicios">
+        <h2>Servicios</h2>
+        <p>En CIMA Automotriz, ofrecemos soluciones integrales para el mantenimiento y reparación de vehículos, con un enfoque en la calidad y satisfacción del cliente.</p>
+    </section>
+
+    <!-- Individuales con íconos y breves descripciones -->
+    <div class="values">
+        <div class="value-item">
+            <div class="value-icon">🔧</div>
+            <h4>Mantenimiento Preventivo</h4>
+            <p>Ofrecemos un servicio completo de mantenimiento para asegurar el buen estado de tu vehículo y prevenir futuros inconvenientes.</p>
+        </div>
+        <div class="value-item">
+            <div class="value-icon">🛠️</div>
+            <h4>Reparación Especializada</h4>
+            <p>Contamos con un equipo de expertos listos para realizar reparaciones específicas, desde sistemas electrónicos hasta motor y carrocería.</p>
+        </div>
+        <div class="value-item">
+            <div class="value-icon">⚙️</div>
+            <h4>Optimización de Rendimiento</h4>
+            <p>Realizamos diagnósticos avanzados para mejorar el rendimiento y eficiencia de tu vehículo, asegurando un funcionamiento óptimo.</p>
+        </div>
+        <div class="value-item">
+            <div class="value-icon">🚗</div>
+            <h4>Asesoría Personalizada</h4>
+            <p>Brindamos un acompañamiento personalizado para ayudarte a tomar decisiones informadas sobre el cuidado y reparación de tu vehículo.</p>
+        </div>
+    </div>
+    
+    <section class="apartados-servicios">
+        <div class="apartado-modulos" data-modal="modal1">
+            <div class="header-content">
+                <h1>Servicio de Prueba y Reparación de Módulos</h1>
+            </div>
+            <div class="imagen-servicios">
+                <img src="../img/diagnostico_compu.jpg" alt="Servicio 1">
+            </div>
+            <p>Descripción detallada del servicio aquí...</p>
+        </div>
+    
+        <div class="apartado-modulos" data-modal="modal2">
+            <div class="header-content">
+                <h1>Servicio de Diagnóstico y Reparación de Sistemas Electrónicos</h1>
+            </div>
+            <div class="imagen-servicios">
+                <img src="../img/revisión.jpg" alt="Servicio 3">
+            </div>
+            <p>Descripción detallada del servicio aquí...</p>
+        </div>
+    
+        <div class="apartado-modulos" data-modal="modal3">
+            <div class="header-content">
+                <h1>Servicio de Programación de Módulos</h1>
+            </div>
+            <div class="imagen-servicios">
+                <img src="../img/programacion.png" alt="Servicio 2" width="60%">
+            </div>
+            <p>Descripción detallada del servicio aquí...</p>
+        </div>
+    
+        <div class="apartado-modulos" data-modal="modal4">
+            <div class="header-content">
+                <h1>Servicio de Afinación</h1>
+            </div>
+            <div class="imagen-servicios">
+                <img src="../img/afinacion.jpg" alt="Servicio 4" width="60%">
+            </div>
+            <p>Descripción detallada del servicio aquí...</p>
+        </div>
+    </section>
+
+    <!-- Modales de los distintos servicios -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div class="header-content">
+            <h1>Servicio de Prueba y Reparación de Módulos</h1>
+            </div>
+            <h1>Fases de Diagnóstico de Computadoras</h1>
+            <div class="content">
+            <div class="step">
+                <div class="circle">01</div>
+                <span>Recepción de piezas</span>
+            </div>
+            <div class="step">
+                <div class="circle">02</div>
+                <span>Prueba en laboratorio</span>
+            </div>
+            <div class="step">
+                <div class="circle">03</div>
+                <span>Autorización</span>
+            </div>
+            <div class="step">
+                <div class="circle">04</div>
+                <span>Valoración</span>
+            </div>
+            <div class="step">
+                <div class="circle">05</div>
+                <span>Solución</span>
+            </div>
+            </div>
+            <div class="imagenes-servicios">
+            <img src="../img/modulos.jpg" alt="Servicio 1">
+            <img src="../img/modulos2.jpg" alt="Servicio 2">
+            </div>
+        <button class="close-modal">Cerrar</button>
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <div class="header-content">
+                <h1>Servicio de Diagnóstico y Reparación de Sistemas Electrónicos</h1>
+            </div>
+            <h1>Fases de Servicio de Revisión</h1>
+            <div class="content">
+                <div class="step-dos">
+                    <div class="circle">01</div>
+                    <span>Diagnóstico de scanner</span>
+                </div>
+                <div class="step-dos">
+                    <div class="circle">02</div>
+                    <span>Revisión</span>
+                </div>
+                <div class="step-dos">
+                    <div class="circle">03</div>
+                    <span>Autorización</span>
+                </div>
+                <div class="step-dos">
+                    <div class="circle">04</div>
+                    <span>Solución</span>
+                </div>
+            </div>
+            <div class="imagenes-servicios">
+                <img src="../img/escaneo.jpg" alt="Servicio 3">
+                <img src="../img/servicio-revisión.jpg" alt="Servicio 3">
+            </div>
+            <button class="close-modal">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <div class="header-content">
+                <h1>Servicio de Programación de Módulos</h1>
+            </div>
+            <img src="../img/programacion.png" alt="Servicio 2" width="60%">
+            <button class="close-modal">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <div class="header-content">
+                <h1>Servicio de Afinación</h1>
+            </div>
+            <img src="../img/afinacion.jpg" alt="Servicio 4" width="60%">
+            <button class="close-modal">Cerrar</button>
+        </div>
+    </div>
+    
+    <section class="contacto-servicios"> 
+        <h4>Contáctanos</h4>
+        <p>¿Tienes alguna duda o pregunta? ¡Estamos aquí para ayudarte!</p>
+        <a href="tel:7711122954" class="llamar">Llamar al 771-112-2954</a>
+        <a href="mailto:cima.automotriz@gmail.com" class="contactar">Contáctanos por Email</a> <!-- Botón de email -->
+        <a href="contacto.html" class="boton-contacto">Ir a la página de Contacto</a> <!-- Nuevo botón -->
+    </section>
+    
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="footer-item">
+            <h4>Contactos</h4>
+            <a href="tel:7711122954" title="Llamar">771-112-2954<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79C5.51 10.21 5.54 8.72 6.78 8.02L8.9 6.74C9.64 6.15 10.88 6.27 11.55 7.04L13.57 9.48C14.3 10.24 14.18 11.58 13.43 12.17L11.3 13.46C10.56 14.05 9.33 13.94 8.64 13.28L7.48 11.78C6.87 10.97 6.69 10.12 6.62 10.79Z"></path></svg></a>
+            <a href="mailto:cima.automotriz@gmail.com" title="Correo Electrónico">cima.automotriz@gmail.com <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12l8 4V6l-8 4-8-4v10l8-4z"></path></svg></a>
+        </div>
+    
+        <div class="footer-item">
+            <h4>Redes Sociales</h4>
+            <a href="https://www.facebook.com/cimaelectronicaautomotriz" target="_blank" title="Facebook">Facebook<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12l-3.8 3.8-2.3-2.3 2.8-3.1H13V6h5.4L12 0 7.2 6H13v5.4H9.2l-2.8 3.1 2.3 2.3L12 12z"></path></svg></a>
+            <a href="https://www.twitter.com/cima" target="_blank" title="Twitter">Twitter <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23 3a10 10 0 0 1-2.8.8A4.6 4.6 0 0 0 22.4 1a9.9 9.9 0 0 1-3.2 1.2A4.6 4.6 0 0 0 15.7 0C13.4 0 11.5 2 11.5 4.3c0 .4 0 .8.1 1.2C7.8 5.3 4.4 3.5 2 0c-.4 1.2-.6 2.4-.6 3.6 0 2.6 1.3 5 3.2 6.5a4.5 4.5 0 0 1-2.1-.6v.1c0 3.6 2.6 6.6 6 7.3a4.7 4.7 0 0 1-2.1.1c1.5 4.4 5.7 6.4 9.7 6.4A9.9 9.9 0 0 0 23 3z"></path></svg></a>
+        </div>
+    
+        <div class="footer-item">
+            <h4>Ubicación</h4>
+            <p>Calle San José, No.113 Colonia Carboneras</p>
+            <p>Pachuca de Soto, Hidalgo, México, 42184</p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1735400915506!6m8!1m7!1s8UKXbDCVjy1doTYtyqabMg!2m2!1d20.09228890807418!2d-98.70530082786382!3f333.65449164765414!4f-0.5329092454161355!5f0.7820865974627469" 
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+           
+    
+        <div class="footer-item">
+            <h4>Política</h4>
+            <a href="politica.html" title="Política de Privacidad">Política de Privacidad</a>
+            <a href="terminos.html" title="Términos de Servicio">Términos de Servicio</a>
+        </div>
+    </footer>
+
+    <script src="../html/js/modales.js"></script>
+</body>
+</html>
